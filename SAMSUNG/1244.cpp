@@ -31,13 +31,14 @@ int main(){
                     switchs[number]*=-1;
                     switchs[number]+=1;
                 }
-                if(number-k<0 || number+k>switch_num) break;
+                if(number-k<=0 || number+k>switch_num) break;
                 if(switchs[number-k] == switchs[number+k]){
                     switchs[number-k]*=-1;
                     switchs[number-k]+=1;
                     switchs[number+k]*=-1;
                     switchs[number+k]+=1;
                 }
+                else break;
             }
         }
     }
