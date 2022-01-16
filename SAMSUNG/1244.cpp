@@ -44,6 +44,7 @@ int main(){
     }
     for(int i=1;i<=switch_num;i++){
         cout<<switchs[i]<<' ';
+        if(i%20 == 0)cout<<endl;
     }
     cout<<endl;
 }
