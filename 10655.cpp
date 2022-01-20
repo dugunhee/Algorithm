@@ -20,7 +20,7 @@ int main()
             ans += (abs(vec[i].first-vec[i-1].first) + abs(vec[i].second-vec[i-1].second));
         }
     }
-    cout<<ans<<endl;
+    //cout<<ans<<endl;
     int maxi=0;
     for(int i=1;i<N-1;i++)
     {
