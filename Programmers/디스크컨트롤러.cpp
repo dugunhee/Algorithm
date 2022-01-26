@@ -13,9 +13,9 @@ struct cmp{
         }
     }
 };
-priority_queue<pair<int,int>,vector<pair<int,int> >,cmp> pq;
-vector<pair<int,int> > vec;
-int solution(vector<vector<int> > jobs) {
+priority_queue<pair<int,int>,vector<pair<int,int>>,cmp> pq;
+vector<pair<int,int>> vec;
+int solution(vector<vector<int>> jobs) {
     int answer = 0;
     int cnt = 0;
     sort(jobs.begin(),jobs.end());
