@@ -6,6 +6,7 @@
         "utility": "cpp",
         "iosfwd": "cpp",
         "vector": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "ostream": "cpp"
     }
 }
