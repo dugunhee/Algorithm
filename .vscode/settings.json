@@ -9,6 +9,7 @@
         "deque": "cpp",
         "ostream": "cpp",
         "__node_handle": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "queue": "cpp"
     }
 }
