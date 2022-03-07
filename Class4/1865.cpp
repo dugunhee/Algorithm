@@ -19,7 +19,7 @@ bool bellman(int start){
             for(int k=0;k<adj[j].size();k++){
                 int next = adj[j][k].first;
                 int cost = adj[j][k].second;
-                if(d[next] > d[j] + cost){
+                if(d[j]!=INF && d[next] > d[j] + cost){
                     d[next] = d[j] + cost;
                     flag = true;
                 }
