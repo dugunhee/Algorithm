@@ -10,6 +10,7 @@
         "ostream": "cpp",
         "__node_handle": "cpp",
         "set": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "stack": "cpp"
     }
 }
